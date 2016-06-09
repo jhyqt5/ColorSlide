@@ -36,23 +36,32 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZAV-xM-Efh">
+                                <rect key="frame" x="212" y="322" width="118" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="dEJ-hX-pld"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeSliderValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="GYp-3v-G7h"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gbM-2T-1Iq">
+                                <rect key="frame" x="212" y="266" width="118" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="dzn-sM-Mh3"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeSliderValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="a5G-6F-faE"/>
+                                </connections>
+                            </slider>
                             <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sYF-H1-mJr">
                                 <rect key="frame" x="212" y="213" width="118" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="xNV-tO-9zG"/>
                                 </constraints>
-                            </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZAV-xM-Efh">
-                                <rect key="frame" x="212" y="322" width="118" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="dEJ-hX-pld"/>
-                                </constraints>
-                            </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gbM-2T-1Iq">
-                                <rect key="frame" x="212" y="266" width="118" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="dzn-sM-Mh3"/>
-                                </constraints>
+                                <connections>
+                                    <action selector="changeSliderValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="xuC-2z-k6a"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
